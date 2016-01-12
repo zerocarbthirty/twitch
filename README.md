@@ -27,11 +27,7 @@ Upload oauth.php to your website.
 
 in the link below replace the client_id and redirect_uri parameters with the values found earlier.
 
-https://api.twitch.tv/kraken/oauth2/authorize?response_type=code
-    &client_id=client_id
-    &redirect_uri=redirect_uri
-    &scope=chat_login
-    &state=[your provided unique token]
+https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=client_id&redirect_uri=redirect_uri&scope=chat_login&state=whatever
 
 Copy and paste the link into any browser.
 
