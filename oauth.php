@@ -23,21 +23,25 @@ function httpPost($url,$params)
     return $output;
  
 }
+$code = $_GET['code'];
 //set these values
 $client_id = "Your twitch client id";
 $client_secret = "Your twitch client secret";
-$code = "The code from step 1";
+$redirect_uri = "http://www.yourwebsite.com/oauth.php";
 
 $url = "https://api.twitch.tv/kraken/oauth2/token";
 $post_vars = array(
 "client_id" => $client_id,
 "client_secret" => $client_secret,
 "grant_type" => "authorization_code",
-"redirect_uri" => "http://localhost",
+"redirect_uri" => $redirect_uri,
 "code" =>  $code,
 "state" => "state");
-
-echo httpPost($url,$post_vars);
+$z = json_decode(httpPost($url,$post_vars));
+$token_pfx = "oauth:";
+$at = $z->access_token;
+$token = "$token_pfx$at";
+echo "Your oauth token is: $token";
 
 
 
