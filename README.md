@@ -1,12 +1,14 @@
 # twitch
 
+I created this because I wanted to learn how it worked, I realize there are easier options for getting your oauth token.
+
 In order to get an access_token to connect to Twitch follow these steps.
 
 Step 1
 
 Note: I do not recommend performing these steps in Firefox because the client secret does not show up when I try it.
 
-Login to the Twitch account you wish to use
+Login to the Twitch account you wish to use<br>
 Go to Settings >> Connections
 At the bottom of the settings page click 'Register your application'
 Enter any name for your application and then http://yourwebsite.com/oauth.php for the redirect URI, click register
