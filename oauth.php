@@ -30,8 +30,8 @@ $code = "The code from step 1";
 
 $url = "https://api.twitch.tv/kraken/oauth2/token";
 $post_vars = array(
-"client_id" => $client_id;
-"client_secret" => $client_secret;
+"client_id" => $client_id,
+"client_secret" => $client_secret,
 "grant_type" => "authorization_code",
 "redirect_uri" => "http://localhost",
 "code" =>  $code,
