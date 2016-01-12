@@ -44,18 +44,20 @@ How is this useful?
 Now you can connect to your channel with any standard IRC client (Such as MIRC) or use most standard IRC bots such as eggdrop to manange your channel.
 
 <h1>Test!</h1>
-C:\Users\tutorial>telnet irc.twitch.tv 6667
-PASS <an actual oauth token goes here>
-NICK zerocarbthirty
-:tmi.twitch.tv 001 zerocarbthirty :Welcome, GLHF!
-:tmi.twitch.tv 002 zerocarbthirty :Your host is tmi.twitch.tv
-:tmi.twitch.tv 003 zerocarbthirty :This server is rather new
-:tmi.twitch.tv 004 zerocarbthirty :-
-:tmi.twitch.tv 375 zerocarbthirty :-
-:tmi.twitch.tv 372 zerocarbthirty :You are in a maze of twisty passages, all alike.
-:tmi.twitch.tv 376 zerocarbthirty :>
-quit
-
+C:\Users\tutorial>telnet irc.twitch.tv 6667<br>
+PASS <an actual oauth token goes here><br>
+NICK zerocarbthirty<br>
+:tmi.twitch.tv 001 zerocarbthirty :Welcome, GLHF!<br>
+:tmi.twitch.tv 002 zerocarbthirty :Your host is tmi.twitch.tv<br>
+:tmi.twitch.tv 003 zerocarbthirty :This server is rather new<br>
+:tmi.twitch.tv 004 zerocarbthirty :-<br>
+:tmi.twitch.tv 375 zerocarbthirty :-<br>
+:tmi.twitch.tv 372 zerocarbthirty :You are in a maze of twisty passages, all alike.<br>
+:tmi.twitch.tv 376 zerocarbthirty :><br>
+quit<br>
+<br>
 Eureka!
+
+If anyone has any trouble get me @zerocarbthirty on Twitter
 
 
